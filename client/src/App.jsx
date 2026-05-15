@@ -37,22 +37,14 @@ function App(){
         
         {/* HOME */}
         <Route
-          path="/"
-          element={
-          
+  path="/"
+  element={<Signup />}
+/>
 
-              <Home />
-
-           
-          }
-        />
-
-
-        {/* SIGNUP */}
-        <Route
-          path="/signup"
-          element={<Signup />}
-        />
+       <Route
+  path="/home"
+  element={<Home />}
+/>
 
 
         {/* LOGIN */}
