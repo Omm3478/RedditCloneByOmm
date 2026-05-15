@@ -35,7 +35,7 @@ function Login() {
 
       const res = await axios.post(
 
-        "http://localhost:5000/api/auth/login",
+        "https://redditclonebyomm-1.onrender.com/login",
 
         formData
 
