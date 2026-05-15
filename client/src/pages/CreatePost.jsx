@@ -40,7 +40,7 @@ function CreatePost(){
 
       alert("Post Created");
 
-      navigate("/");
+      navigate("/home");
 
     }catch(err){
 
