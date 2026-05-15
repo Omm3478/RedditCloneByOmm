@@ -52,11 +52,11 @@ function Login() {
 
     }catch(err){
 
-      console.log(err);
+  console.log(err.response.data);
 
-      alert("Login Failed");
+  alert(err.response.data.message);
 
-    }
+}
 
   };
 
