@@ -32,7 +32,7 @@ function CreatePost(){
 
       await axios.post(
 
-        "http://localhost:5000/api/post",
+        "https://redditclonebyomm-3.onrender.com/api/post",
 
         formData
 

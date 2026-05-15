@@ -35,7 +35,7 @@ function Login() {
 
       const res = await axios.post(
 
-        "https://redditclonebyomm-2.onrender.com/login",
+        "https://redditclonebyomm-3.onrender.com/api/auth/login",
 
         formData
 

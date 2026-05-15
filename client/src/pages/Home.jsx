@@ -15,7 +15,7 @@ function Home() {
     try {
       setLoading(true);
 
-      const res = await axios.get("http://localhost:5000/api/post");
+      const res = await axios.get("https://redditclonebyomm-3.onrender.com/api/post");
 
       // SAFE handling for different backend formats
       const data = res.data?.posts || res.data?.data || res.data || [];

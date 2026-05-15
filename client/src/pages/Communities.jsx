@@ -20,7 +20,7 @@ function Communities(){
 
       const res = await axios.get(
 
-        "http://localhost:5000/api/community"
+        "https://redditclonebyomm-3.onrender.com/api/community"
 
       );
 

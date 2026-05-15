@@ -11,7 +11,7 @@ function CreateCommunity() {
     e.preventDefault();
 
     await axios.post(
-      "http://localhost:5000/api/community",
+      "https://redditclonebyomm-3.onrender.com/api/community",
       {
         name,
         description
