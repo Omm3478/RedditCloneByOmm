@@ -17,7 +17,7 @@ function Signup() {
     try{
 
       await axios.post(
-        "https://redditclonebyomm-3.onrender.comapi/auth/signup",
+        "https://redditclonebyomm-3.onrender.com/api/auth/signup",
         {
           username,
           email,
