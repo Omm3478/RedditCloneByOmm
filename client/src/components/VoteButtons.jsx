@@ -8,7 +8,7 @@ function VoteButtons({ postId, initialVotes }) {
   const upvote = async() => {
 
     const res = await axios.put(
-      `http://localhost:5000/api/post/${postId}/upvote`
+      `https://redditclonebyomm-3.onrender.com/api/post/${postId}/upvote`
     );
 
     setVotes(res.data.votes);
